@@ -1,7 +1,8 @@
 // Write your code here!
 main.remove();
 let newheader =document.getElementByTagName("body");
- newheader.innerHTML= <h1 id="victory" >Firas is the champion</h1>;
+ newheader.innerHTML= <h1>Firas is the champion</h1>;
+ newHeader.setAttribute("id", "victory");
 
 /*main.remove();
 let newHeader = document.createElement('h1');
